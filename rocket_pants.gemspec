@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'railties',   '>= 3.0', '< 6.0'
   s.add_dependency 'will_paginate', '~> 3.0'
   s.add_dependency 'hashie',        '>= 1.0', '< 4'
-  s.add_dependency 'api_smith', git: 'https://github.com/tomukas/api_smith.git'
+  # s.add_dependency 'api_smith'
   s.add_dependency 'moneta'
   s.add_development_dependency 'rspec',       '>= 2.4', '< 4.0'
   s.add_development_dependency 'rspec-rails', '>= 2.4', '< 4.0'
